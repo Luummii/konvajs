@@ -9,9 +9,11 @@ export default async (ctx, next) => {
     ctx.throw(400)
   }
   const result = await user.Select().catch((err) => { winston.error(err) })
-  if (!result[0].email) {
-    ctx.throw(400)
+
+  if (result.length < 1) {
+    result[0] = { email: 'No result' }
   }
+
   const id = uuid.v4()
   if (!ctx.session.uid) ctx.session.uid = id
   ctx.body = JSON.stringify({ message: `User email: ${result[0].email}` })

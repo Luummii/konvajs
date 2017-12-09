@@ -1,23 +1,8 @@
-# vue-starter-kit (v1.0.0)
+# KanvaJS + VueJS example
 
-Vue-starter-kit - the template for fast start your app.
+Using vue-starter-kit template - https://github.com/Luummii/vue-starter-kit
 
-[![Build Status](https://travis-ci.org/Luummii/vue-starter-kit.svg?branch=master)](https://travis-ci.org/Luummii/vue-starter-kit)
-
- - VueJS
- - KoaJS
- - Roter
- - Store
- - Axios
- - Knex
- - Migrate
- - PostgreSQL (Heroku)
- - Koa middlewares (bodyParser, csrf, sessions and more)
- - Server routes
- - Jasmine
- - Chai
-
-fast example here - https://vue-starter-kit.herokuapp.com/
+example here - https://konvajs.herokuapp.com/
 
 ## Build Setup
 
