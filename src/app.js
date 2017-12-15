@@ -6,6 +6,9 @@ import App from './App.vue'
 import routes from './routes'
 import store from './store/index'
 
+import VueKonva from 'vue-konva'
+Vue.use(VueKonva)
+
 if (process.env.NODE_ENV === 'production') {
   Vue.config.devtools = false
   Vue.config.debug = false

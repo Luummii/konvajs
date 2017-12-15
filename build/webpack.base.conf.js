@@ -38,7 +38,7 @@ export default {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          name: path.join('img', '[name].[hash:7].[ext]')
+          name: path.join('img', '[name].[ext]')
         }
       },
       {
@@ -46,7 +46,7 @@ export default {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          name: path.join('fonts', '[name].[hash:7].[ext]')
+          name: path.join('fonts', '[name].[ext]')
         }
       },
       {
@@ -54,7 +54,7 @@ export default {
         loader: 'url-loader',
         options: {
           limit: 10000,
-          name: path.join('media', '[name].[hash:7].[ext]')
+          name: path.join('media', '[name].[ext]')
         }
       }
     ]
